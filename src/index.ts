@@ -1,5 +1,5 @@
 /**
- * AAE Agents
+ * Gentech Agents
  * 
  * Multi-agent orchestration framework with ERC-8004 identity,
  * x402 payments, and human-in-the-loop.

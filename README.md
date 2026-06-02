@@ -1,4 +1,4 @@
-# AAE Agents
+# Gentech Agents
 
 **Build agent teams, not just agents.**
 
@@ -6,13 +6,13 @@ A multi-agent orchestration framework with specialized roles, ERC-8004 identity,
 
 > 🎮 Think AgentRQ meets EarnFi meets multiplayer gaming.
 
-## Why AAE Agents?
+## Why Gentech Agents?
 
-Most agent frameworks focus on single agents. AAE Agents is built for **teams** — specialized agents working together with humans, coordinated by an orchestrator, paid via micropayments.
+Most agent frameworks focus on single agents. Gentech Agents is built for **teams** — specialized agents working together with humans, coordinated by an orchestrator, paid via micropayments.
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    AAE Agents                            │
+│                    Gentech Agents                            │
 │                                                         │
 │  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐│
 │  │   HQ     │  │  Labs    │  │ Strategy │  │Content   ││
@@ -39,11 +39,11 @@ Most agent frameworks focus on single agents. AAE Agents is built for **teams** 
 ## Quick Start
 
 ```bash
-npm install aae-agents
+npm install gentech-agents
 ```
 
 ```typescript
-import { AgentTeam, Orchestrator } from 'aae-agents';
+import { AgentTeam, Orchestrator } from 'gentech-agents';
 
 // Create a team with specialized agents
 const team = new AgentTeam({
@@ -79,7 +79,7 @@ console.log(result); // { code: '...', content: '...' }
 When agents need human judgment, creativity, or real-world execution:
 
 ```typescript
-import { HumanLoop } from 'aae-agents';
+import { HumanLoop } from 'gentech-agents';
 
 const loop = new HumanLoop({
   provider: 'earnfi', // or 'wurk'
@@ -101,7 +101,7 @@ console.log(result.reviews); // [{ user: '...', rating: 5, feedback: '...' }]
 The framework is open source. Use our agents or bring your own:
 
 ```typescript
-import { AgentTeam } from 'aae-agents';
+import { AgentTeam } from 'gentech-agents';
 
 const team = new AgentTeam({
   agents: [

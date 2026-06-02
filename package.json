@@ -1,5 +1,5 @@
 {
-  "name": "aae-agents",
+  "name": "gentech-agents",
   "version": "0.1.0",
   "description": "Multi-agent orchestration framework with ERC-8004 identity, x402 payments, and human-in-the-loop",
   "main": "dist/index.js",
@@ -45,6 +45,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ProtoJay4789/aae-agents.git"
+    "url": "https://github.com/ProtoJay4789/gentech-agents.git"
   }
 }
